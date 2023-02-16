@@ -27,21 +27,21 @@
     <!-- NAVIGATOR BAR -->
     <section class="body">
         <div class="sign_in">
-            <form>
+            <form action="/login" method="POST">
                 <p>Sign in</p>
                 <div class="mb-3 content">
 
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+                  <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Email">
                   
                 </div>
 
                 <div class="mb-3 content">
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                   
                 </div>
 
 
-                <button type="submit" class="btn btn-primary submit_button">Submit</button>
+                <button type="submit" class="btn btn-primary submit_button">Login</button>
 
                 <div class="bottom d-flex justify-content-around">
                     <a href="">New User?</a>
