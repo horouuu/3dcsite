@@ -1,0 +1,150 @@
+/* GLOBAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    color: #717171;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ /* Components  */
+ .menu .navbar{
+    padding: 25px;
+ }
+
+ .menu .navbar ul{
+    margin: auto;
+ }
+
+ .menu .navbar a{
+    color:  #424242;
+    font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+
+ }
+
+ .menu .navbar li{
+    margin: 0px 40px;
+ }
+
+ .menu .navbar .li_home::after{
+    content: "";
+    display: block;
+    width: 100%;
+    /* width: 0; */
+    height: 3px;
+    background-color: #DB4437;
+    transition: 0.5s;
+ }
+
+ /* .menu .navbar .li_home:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #DB4437;
+ } */
+
+ .menu .navbar .li_showcase::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #4285F4;
+    transition: 0.5s;
+ }
+
+ .menu .navbar .li_showcase:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #4285F4;
+ }
+
+ .menu .navbar .li_manage::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #F4B400;
+    transition: 0.5s;
+ }
+
+ .menu .navbar .li_manage:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #F4B400;
+ }
+
+
+ .menu .navbar .li_update::after{
+    content: "";
+    display: block;
+    /* width: 100%; */
+    width: 0;
+    height: 3px;
+    background-color: #DB4437;
+    transition: 0.5s;
+ }
+
+ .menu .navbar .li_update:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #DB4437;
+ }
+
+ .menu .navbar .dc_logo span{
+    font-size: 50px !important;
+ }
+ 
+ .color1{
+    color: #DB4437;
+ }
+
+ .color2{
+    color: #4285F4;
+ }
+
+ .color3{
+    color: #F4B400;
+ }
+
+ /* CAROUSEL */
+ /* .carousel_moving #carouselExampleIndicators{
+    height: 50px !important;
+ } */
+
+ /* ABOUT US */
+ .about_us{
+    margin: 50px 20px;
+ }
+
+ .about_us_col{
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 1px 8px 0px rgb(158 158 158 / 75%);
+    transition: 0.6s;
+    cursor: pointer;
+ }
+
+ .about_us .about_us_info .about_us_content p:first-child{
+    font-size: 30px !important;
+ }
+
+ .about_us_col:hover {
+    background-color: #FDEBD0;
+}
+
+.about_us_col:hover .color_nice{
+    color: #F39C12;
+    font-weight: 700px;
+}
