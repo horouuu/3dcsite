@@ -118,6 +118,20 @@ line-height: 31px;
     color: #F4B400;
  }
 
+ .login_menu a{
+    color: white !important;
+    font-weight: 400 !important;
+    padding: 10px 25px !important;
+    transition: 0.5s;
+ }
+
+ .login_menu:hover .login_done{
+    background-color: white !important;
+    border-color: #F39C12 !important;
+    color: #F39C12 !important;
+    font-weight: 700 !important;
+ }
+
  /* CAROUSEL */
  /* .carousel_moving #carouselExampleIndicators{
     height: 50px !important;

@@ -1,0 +1,63 @@
+/* GLOBAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    color: #717171;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ /* SIGN IN */
+ .body{
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    height: 1000px;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+ }
+
+ .sign_in{
+    box-shadow: 1px 2px 8px 1px rgb(158 158 158 / 75%);
+    padding: 20px 15px;
+    height: 450px;
+    width: 20%;
+    margin: auto;
+    background-color: #F8F9F9;
+ }
+
+ .body p{
+    font-size: 30px;
+
+ }
+
+ .body .sign_in .content{
+    margin: 30px 0px !important;
+ }
+ .submit_button{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 120px;
+    background-color: #F1C40F;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+ }
+
+ .bottom{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+ }
+
+ .btn{
+    transition: 0.5s;
+ }
+ .btn:hover {
+    transform: scale(1.1);
+    font-weight: 500px;
+    background-color: #F1C40F;
+}
