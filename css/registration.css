@@ -1,0 +1,51 @@
+/* GLOBAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    color: #717171;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ /* Body */
+ .heading_content{
+    margin: 40px 0px !important;
+    font-size: large;
+ }
+
+
+ .table_for_registration{
+    margin: 20px 0;
+ }
+
+ .heading_line_green{
+    background-color: #0F9D58;
+    height: 55px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+ }
+
+ .input_info{
+    border-radius: 20px !important;
+ }
+
+ .left_title{
+    color: black;
+    font-size: 25px;
+    font-weight: 600px !important;
+ }
+
+ .content{
+    margin-bottom: 150px;
+ }
+
+ .table_for_registration{
+    background: rgba(0, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+ }
